@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    // scroll-behavior: smooth;
 }
 
 :root {
@@ -14,6 +14,7 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
 * {
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
@@ -90,12 +91,14 @@ body {
     margin: 0 auto;
     width: 100%;
 }
+
 @media (min-width: 576px) {
     .container {
         max-width: 540px;
         padding: 0 20px;
     }
 }
+
 @media (min-width: 768px) {
     .container {
         max-width: 720px;
@@ -108,16 +111,19 @@ body {
         max-width: 960px;
     }
 }
+
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
     }
 }
+
 @media (min-width: 1400px) {
     .container {
         max-width: 1320px;
     }
 }
+
 @media (min-width: 1600px) {
     .container {
         max-width: 1460px;
@@ -145,6 +151,7 @@ body {
     align-items: center;
     justify-content: center;
     transition: .3s;
+
     &:hover {
         background: var(--gold);
         color: #fff;
@@ -187,6 +194,7 @@ body {
     .secttitle {
         font-size: 32px;
     }
+
     .main {
         padding-top: 130px;
     }
@@ -196,8 +204,13 @@ body {
     .secttitle {
         font-size: 28px;
     }
-    .brownbtn{
+
+    .brownbtn {
         width: 100%;
+    }
+
+    .main {
+        padding-top: 150px;
     }
 
 }
@@ -206,7 +219,8 @@ body {
     .secttitle {
         font-size: 26px;
     }
-    p{
+
+    p {
         font-size: 14px;
     }
 }
